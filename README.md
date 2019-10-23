@@ -1,4 +1,4 @@
-# JumboTechnicalTask
+# React Technical Task
 1. npm install
 2. npm start
 
