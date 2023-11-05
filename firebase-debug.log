@@ -1,0 +1,21 @@
+[debug] [2023-11-05T09:17:24.321Z] ----------------------------------------------------------------------
+[debug] [2023-11-05T09:17:24.323Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\darks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-05T09:17:24.323Z] CLI Version:   12.8.0
+[debug] [2023-11-05T09:17:24.324Z] Platform:      win32
+[debug] [2023-11-05T09:17:24.324Z] Node Version:  v20.9.0
+[debug] [2023-11-05T09:17:24.324Z] Time:          Sun Nov 05 2023 19:17:24 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2023-11-05T09:17:24.324Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-05T09:17:24.328Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-05T09:17:24.329Z] > authorizing via signed-in user (darksideofatwin@hotmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\darks\Documents\repos\ReactTechnicalTask
+
