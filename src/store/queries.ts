@@ -3,6 +3,7 @@ import { config } from "../config";
 
 const baseApiUrl = "https://api.themoviedb.org/3";
 
+// Query for getting a list of recent movies
 export const queryDiscover = async (setSearchResults: (data: any) => void) => {
   const response = await fetch(
     `${baseApiUrl}/discover/movie?api_key=${config.apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`
@@ -12,6 +13,7 @@ export const queryDiscover = async (setSearchResults: (data: any) => void) => {
   setSearchResults(data.results);
 };
 
+// Query for getting a list of movies based on a search string
 export const searchBasedOnQuery = async (
   query: string,
   setSearchResults: (data: any) => void
@@ -23,6 +25,7 @@ export const searchBasedOnQuery = async (
   setSearchResults(data.results);
 };
 
+// Query for getting the different configuration details from the movie database.
 export const queryConfiguration = async (
   setConfig: (base_url: string, backdrop: string) => void
 ) => {
@@ -36,6 +39,7 @@ export const queryConfiguration = async (
   );
 };
 
+// Query for getting the details for a specific movie.
 export const loadMovieDetails = async (showId: string) => {
   const response = await fetch(
     `${baseApiUrl}/movie/${showId}'?api_key=${config.apiKey}&language=en-US`
