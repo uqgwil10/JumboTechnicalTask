@@ -1,4 +1,4 @@
-An example application using the movie database apis to demostrate technical knowledge.
+An example application using the movie database apis to demostrate react technical knowledge.
 
 Changelog 5/11/2023
 
